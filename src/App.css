@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: skyblue;
+  height: 100vw;
 }
 
 .App-logo {
@@ -35,4 +37,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.weather-cards{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+
+}
+
+.weather-card{
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;  
+  height: 100px;
+  border: 1px solid gray;
+  background-color: white;
+  width: 20vw;
+  border-radius: 5px;
+  align-items: center;
+  border: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+  color: grey;
+}
+
+button{
+  color: white;
+  background-color: green;
+  border: 0;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input{
+  height: 40px;
+  border: 0;
+  margin-right: 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding-left: 10px;
 }
