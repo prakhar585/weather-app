@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
-
+const API_KEY = '83f1e17831b944118ab125945252703';
 function App() {
   const [city, setCity] = useState("");
   const [weatherData, setWeatherData] = useState(null);
 
-  const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+  // const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
   const handleSubmit = (e) => {
   
