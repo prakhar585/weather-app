@@ -50,7 +50,7 @@ function App() {
   return (
     <div className="App">
       <form onSubmit={(e) => handleSubmit(e)}>
-        <input
+        <input type="text"
           onChange={(e) => {
             setCity(e.target.value);
           }}
